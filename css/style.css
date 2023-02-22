@@ -1,0 +1,154 @@
+:root {
+  --base-color: #4b321d;
+}
+body {
+  font-family: "Poppins", Arial;
+  color: var(--base-color);
+  background-color: #f1f1eb;
+}
+a {
+  color: var(--base-color);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1360px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.btn {
+  display: inline-block;
+  border-radius: 3px;
+  border: 2px solid var(--base-color);
+  font-size: 20px;
+  line-height: 24px;
+  padding: 11px 17px;
+}
+h3 {
+  margin: 0 0 42px 0;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: calc(44 / 38);
+}
+header {
+  padding: 43px 0;
+}
+header nav {
+  float: right;
+  margin: 0 285px 0 0;
+}
+.menu {
+  padding: 12px 0 0 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+}
+.menu li {
+  float: left;
+  margin: 0 0 0 36px;
+}
+.heading {
+  padding: 89px 0 126px 0;
+}
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: calc(100 / 80);
+}
+.full-image {
+  text-align: center;
+}
+.full-image img {
+  border-radius: 16px;
+}
+.section {
+  padding: 87px 0 90px 0;
+}
+.section h2 {
+  padding: 0 0 47px;
+}
+.visual {
+  display: inline-block;
+  width: 50%;
+  margin: 0 -4px 0 0;
+  vertical-align: middle;
+}
+.visual img {
+  border-radius: 16px;
+}
+.text-container {
+  vertical-align: middle;
+  display: inline-block;
+  width: 50%;
+  margin: 0 -4px 0 0;
+  padding: 0 0 0 29px;
+}
+.two-colums {
+  padding: 0 0 84px 0;
+}
+.visual-second {
+  display: inline-block;
+  width: auto;
+  margin: 0 -4px 0 0;
+  padding: 0 0 0 80px;
+  vertical-align: middle;
+}
+.text-container-second {
+  vertical-align: middle;
+  display: inline-block;
+  width: 49%;
+  margin: 0 -4px 0 0;
+}
+.cite_block {
+  background-color: #4b321d;
+  max-width: 1400px;
+  border-radius: 16px;
+  color: #f1f1eb;
+  margin: 0 auto 90px auto;
+}
+.cite_block h2 {
+  padding: 93px 0 0 60px;
+}
+.cite_block span {
+  display: inline-block;
+  font-size: 26px;
+  line-height: calc(36 / 26);
+  padding: 40px 0 110px 60px;
+}
+.talking_block {
+  padding: 0 0 190px 0;
+}
+.talking_block h2 {
+  margin: 0 0 50px 0;
+}
+footer {
+  padding: 0 0 100px 0;
+}
+footer span {
+  font-size: 18px;
+  line-height: calc(28 / 18);
+}
+.palma {
+  margin: 83px 0 0;
+}
+footer .container {
+  overflow: hidden;
+}
+.info-footer {
+  float: left;
+}
+footer nav {
+  overflow: hidden;
+  float: right;
+  font-size: 17px;
+  line-height: calc(28 / 17);
+}
+footer ul {
+  float: left;
+  margin: 0 4px 0 140px;
+}
